@@ -47,4 +47,25 @@ var booleanoMix1 = booleano1&&TAU/2==PI||variableValorNumerico>=MiNumeroFav ? tr
 var seisNoEsNueve = 6=== !9 ? false: true;
 //booleanomix2//
 let booleanoMix2 = variableValorNumerico > 0|| variableValorNumerico < (MiNumeroFav * TAU);
-  
+// Operadores//
+let valorSuma = MiNumeroFav + variableValorNumerico;
+let valorResta = MiNumeroFav - variableValorNumerico;
+let valorMultiplicacion = MiNumeroFav * variableValorNumerico;
+let valorDivision = MiNumeroFav/3;
+//BUCLES contar hasta 10//
+let contarHasta10 = 0;
+while(contarHasta10< 10) {
+    contarHasta10++;
+}
+//PREI y PREJ//
+ preI=0;
+ preJ=0;
+do {
+preI = preI + preJ;
+++preJ;
+}
+while ( preJ < 11);
+//Impares//
+let sumaImpares = 0;
+  for (i=0; i < 10; i++) 
+if ( i%2==1) { sumaImpares = sumaImpares+i;}
