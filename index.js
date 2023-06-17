@@ -61,8 +61,9 @@ while(contarHasta10< 10) {
  preI=0;
  preJ=0;
 do {
+  ++preJ;
 preI = preI + preJ;
-++preJ;
+
 }
 while ( preJ < 11);
 //Impares//
